@@ -96,13 +96,3 @@ README.md
 6. **Cookie Banner** — GDPR-compliant cookie consent
 7. **Analytics** — Add Google Analytics or Plausible
 8. **Dark/Light Toggle** — Optional theme switcher
-
----
-
-## ⚠️ Disclaimer
-
-> This is a demo landing page for design/development purposes. NexaVault is a fictional brand. Cryptocurrency prices shown are simulated. This website does not constitute financial advice.
-
----
-
-*Built with HTML5 · CSS3 · Vanilla JavaScript | 2025*
