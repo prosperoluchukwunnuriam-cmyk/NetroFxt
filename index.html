@@ -1,207 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>NetroFx — Trade, Grow & Secure Your Digital Assets</title>
-  <meta name="description" content="NetroFX  is the next-generation digital asset platform. Buy, sell, trade and grow your crypto portfolio with institutional-grade security." />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-
-  <!-- ======== NAVIGATION ======== -->
-  <nav class="navbar" id="navbar">
-    <div class="container nav-inner">
-      <a href="#" class="logo">
-        <div class="logo-icon">
-          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
-            <polygon points="18,2 34,10 34,26 18,34 2,26 2,10" fill="url(#hexGrad)" />
-            <text x="18" y="23" text-anchor="middle" fill="#fff" font-size="14" font-weight="bold" font-family="Inter">N</text>
-            <defs>
-              <linearGradient id="hexGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#1E3A8A"/>
-                <stop offset="100%" style="stop-color:#3B82F6"/>
-              </linearGradient>
-            </defs>
-          </svg>
-        </div>
-        <span class="logo-text">NetroFx</span>
-      </a>
-
-      <ul class="nav-links" id="navLinks">
-        <li><a href="#features">Features</a></li>
-        <li><a href="#invest">Invest</a></li>
-        <li><a href="#security">Security</a></li>
-        <li><a href="#testimonials">Reviews</a></li>
-        <li><a href="#pricing">Plans</a></li>
-      </ul>
-
-      <div class="nav-cta">
-        <a href="#" class="btn btn-ghost">Log In</a>
-        <a href="#signup" class="btn btn-primary">Get Started</a>
-      </div>
-
-      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
-
-  <!-- Mobile menu overlay -->
-  <div class="mobile-menu" id="mobileMenu">
-    <ul>
-      <li><a href="#features" onclick="closeMobile()">Features</a></li>
-      <li><a href="#invest" onclick="closeMobile()">Invest</a></li>
-      <li><a href="#security" onclick="closeMobile()">Security</a></li>
-      <li><a href="#testimonials" onclick="closeMobile()">Reviews</a></li>
-      <li><a href="#pricing" onclick="closeMobile()">Plans</a></li>
-    </ul>
-    <div class="mobile-cta">
-      <a href="#" class="btn btn-ghost">Log In</a>
-      <a href="#signup" class="btn btn-primary" onclick="closeMobile()">Get Started</a>
-    </div>
-  </div>
-
-  <!-- ======== HERO SECTION ======== -->
-  <section class="hero" id="home">
-    <div class="hero-bg">
-      <div class="hero-glow glow-1"></div>
-      <div class="hero-glow glow-2"></div>
-      <div class="grid-overlay"></div>
-    </div>
-
-    <div class="container hero-inner">
-      <div class="hero-content">
-        <div class="hero-badge">
-          <span class="badge-dot"></span>
-          <span>Trusted by 500,000+ investors globally</span>
-        </div>
-        <h1 class="hero-title">
-          The Future of
-          <span class="gradient-text">Digital Finance</span>
-          Starts Here
-        </h1>
-        <p class="hero-desc">
-          NetroFx gives you institutional-grade tools to buy, sell, trade and grow your digital asset portfolio — with military-level security and a seamless experience.
-        </p>
-        <div class="hero-actions">
-          <a href="#signup" class="btn btn-primary btn-lg">
-            Start Investing Free
-            <i class="fas fa-arrow-right"></i>
-          </a>
-          <a href="#features" class="btn btn-outline btn-lg">
-            <i class="fas fa-play-circle"></i>
-            See How It Works
-          </a>
-        </div>
-        <div class="hero-stats">
-          <div class="stat-item">
-            <span class="stat-num" data-target="500">0</span><span class="stat-unit">K+</span>
-            <span class="stat-label">Active Investors</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-num" data-target="12">0</span><span class="stat-unit">B+</span>
-            <span class="stat-label">Assets Under Management</span>
-          </div>
-          <div class="stat-divider"></div>
-          <div class="stat-item">
-            <span class="stat-num" data-target="99">0</span><span class="stat-unit">.9%</span>
-            <span class="stat-label">Platform Uptime</span>
-          </div>
-        </div>
-      </div>
-
-      <div class="hero-visual">
-        <div class="phone-mockup">
-          <div class="phone-frame">
-            <div class="phone-screen">
-              <div class="app-header">
-                <div class="app-logo-sm">NV</div>
-                <span>Portfolio</span>
-                <i class="fas fa-bell"></i>
-              </div>
-              <div class="portfolio-balance">
-                <span class="balance-label">Total Balance</span>
-                <span class="balance-amount">$84,320.50</span>
-                <span class="balance-change positive">+$2,140.30 (2.6%) today</span>
-              </div>
-              <div class="mini-chart">
-                <svg viewBox="0 0 200 60" preserveAspectRatio="none">
-                  <defs>
-                    <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
-                      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:0.4"/>
-                      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:0"/>
-                    </linearGradient>
-                  </defs>
-                  <path d="M0,55 L20,45 L40,50 L60,35 L80,38 L100,25 L120,28 L140,15 L160,18 L180,8 L200,5 L200,60 L0,60 Z" fill="url(#chartGrad)"/>
-                  <path d="M0,55 L20,45 L40,50 L60,35 L80,38 L100,25 L120,28 L140,15 L160,18 L180,8 L200,5" stroke="#3B82F6" stroke-width="2" fill="none"/>
-                </svg>
-              </div>
-              <div class="coin-list">
-                <div class="coin-row">
-                  <div class="coin-icon btc">₿</div>
-                  <div class="coin-info"><span>Bitcoin</span><small>BTC</small></div>
-                  <div class="coin-price positive">+3.4%</div>
-                </div>
-                <div class="coin-row">
-                  <div class="coin-icon eth">Ξ</div>
-                  <div class="coin-info"><span>Ethereum</span><small>ETH</small></div>
-                  <div class="coin-price positive">+1.9%</div>
-                </div>
-                <div class="coin-row">
-                  <div class="coin-icon sol">◎</div>
-                  <div class="coin-info"><span>Solana</span><small>SOL</small></div>
-                  <div class="coin-price negative">-0.7%</div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Floating cards -->
-          <div class="float-card card-1">
-            <i class="fas fa-lock"></i>
-            <div>
-              <span>Secure</span>
-              <small>Cold Storage</small>
-            </div>
-          </div>
-          <div class="float-card card-2">
-            <i class="fas fa-bolt"></i>
-            <div>
-              <span>Instant</span>
-              <small>Transactions</small>
-            </div>
-          </div>
-          <div class="float-card card-3">
-            <div class="spark-bar"></div>
-            <span class="spark-label">Live Prices</span>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Scrolling ticker -->
-    <div class="ticker-wrap">
-      <div class="ticker" id="ticker">
-        <div class="ticker-item"><span class="t-name">BTC</span><span class="t-price">$67,450</span><span class="t-change pos">+2.8%</span></div>
-        <div class="ticker-item"><span class="t-name">ETH</span><span class="t-price">$3,890</span><span class="t-change pos">+1.5%</span></div>
-        <div class="ticker-item"><span class="t-name">SOL</span><span class="t-price">$185</span><span class="t-change neg">-0.6%</span></div>
-        <div class="ticker-item"><span class="t-name">BNB</span><span class="t-price">$610</span><span class="t-change pos">+3.1%</span></div>
-        <div class="ticker-item"><span class="t-name">XRP</span><span class="t-price">$0.72</span><span class="t-change pos">+4.2%</span></div>
-        <div class="ticker-item"><span class="t-name">ADA</span><span class="t-price">$0.58</span><span class="t-change neg">-1.3%</span></div>
-        <div class="ticker-item"><span class="t-name">AVAX</span><span class="t-price">$42.10</span><span class="t-change pos">+5.6%</span></div>
-        <div class="ticker-item"><span class="t-name">MATIC</span><span class="t-price">$1.04</span><span class="t-change pos">+2.0%</span></div>
-        <div class="ticker-item"><span class="t-name">DOT</span><span class="t-price">$8.90</span><span class="t-change neg">-0.9%</span></div>
-        <div class="ticker-item"><span class="t-name">LINK</span><span class="t-price">$18.70</span><span class="t-change pos">+1.8%</span></div>
-        <!-- Duplicate for seamless loop -->
-        <div class="ticker-item"><span class="t-name">BTC</span><span class="t-price">$67,450</span><span class="t-change pos">+2.8%</span></div>
-        <div class="ticker-item"><span class="t-name">ETH</span><span class="t-price">$3,890</span><span class="t-change pos">+1.5%</span></div>
-        <div class="ticker-item"><span class="t-name">SOL</span><span class="t-price">$185</span><span class="t-change neg">-0.6%</span></div>
-        <div class="ticker-item"><span class="t-name">BNB</span><span class="t-price">$610</span><span class="t-change pos">+3.1%</span></div>
+<!DOCTYPE html><span class="t-change pos">+3.1%</span></div>
         <div class="ticker-item"><span class="t-name">XRP</span><span class="t-price">$0.72</span><span class="t-change pos">+4.2%</span></div>
         <div class="ticker-item"><span class="t-name">ADA</span><span class="t-price">$0.58</span><span class="t-change neg">-1.3%</span></div>
         <div class="ticker-item"><span class="t-name">AVAX</span><span class="t-price">$42.10</span><span class="t-change pos">+5.6%</span></div>
@@ -239,10 +36,10 @@
     </div>
   </section>
 
-  <!-- ======== WHY NEXAVAULT ======== -->
+  <!-- ======== WHY NETROFX======== -->
   <section class="features" id="features">
     <div class="container">
-      <div class="section-label">Why NetroFX< /div>
+      <div class="section-label">Why NetroFX</div>
       <h2 class="section-title">Built for the Next Generation<br>of Digital Investors</h2>
       <p class="section-desc">Every feature is engineered to give you the edge — whether you're a first-time buyer or an experienced portfolio manager.</p>
 
@@ -624,7 +421,7 @@
         <div class="cta-content">
           <div class="section-label" style="color:#93C5FD;">Start Your Journey</div>
           <h2 class="cta-title">Ready to Grow Your <br><span class="gradient-text">Digital Wealth?</span></h2>
-          <p>Join 500,000+ investors already building their financial future on NexaVault. Sign up in minutes — no experience needed.</p>
+          <p>Join 500,000+ investors already building their financial future on NETROFX. Sign up in minutes — no experience needed.</p>
           <div class="cta-actions">
             <div class="email-form">
               <input type="email" placeholder="Enter your email address" class="email-input" />
@@ -639,7 +436,7 @@
               <div class="cta-app-screen">
                 <div class="cta-welcome">
                   <span>Welcome to</span>
-                  <strong>NexaVault</strong>
+                  <strong>NETROFX</strong>
                 </div>
                 <div class="cta-form-mock">
                   <div class="form-field-mock">
@@ -682,7 +479,7 @@
                 </defs>
               </svg>
             </div>
-            <span class="logo-text">NexaVault</span>
+            <span class="logo-text">NetroFX </span>
           </a>
           <p>The next-generation digital asset platform — trusted, secure and built for growth.</p>
           <div class="social-links">
@@ -736,17 +533,8 @@
       </div>
 
       <div class="footer-bottom">
-        <p>&copy; 2025 NexaVault Ltd. All rights reserved. Registered in the British Virgin Islands.</p>
-        <p class="footer-disclaimer">Cryptocurrency investments involve significant risk. Past performance is not indicative of future results. NexaVault is not a financial advisor. Trade responsibly.</p>
-      </div>
-    </div>
-  </footer>
-
+        <p>&copy; 2025 NetroFx Ltd. All rights reserved. Registered in the British Virgin Islands.</p>
   <!-- Back to top -->
   <button class="back-to-top" id="backToTop" aria-label="Back to top">
-    <i class="fas fa-chevron-up"></i>
+    <i class="fas fa-chevron-up">
   </button>
-
-  <script src="js/main.js"></script>
-</body>
-</html>
