@@ -1,5 +1,5 @@
 /* ============================================================
-   NexaVault — Main JavaScript
+   NetroFx — Main JavaScript
    Interactivity, animations & dynamic features
 ============================================================ */
 
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initEmailForm();
   initPriceAnimation();
   initHoverEffects();
-  console.log('%c⚡ NexaVault Loaded', 'color:#3B82F6; font-size:14px; font-weight:bold;');
+  console.log('%c⚡ NETROFX Loaded', 'color:#3B82F6; font-size:14px; font-weight:bold;');
 });
 
 
